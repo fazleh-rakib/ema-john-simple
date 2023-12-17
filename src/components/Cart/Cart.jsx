@@ -2,7 +2,7 @@ import React from "react";
 import "./Cart.css";
 const Cart = ({ cart }) => {
   // const {cart} = props
-
+// console.log(cart,'cart selected ');
   let totalPrice = 0;
   let totalShipping = 0;
   for (const product of cart) {
